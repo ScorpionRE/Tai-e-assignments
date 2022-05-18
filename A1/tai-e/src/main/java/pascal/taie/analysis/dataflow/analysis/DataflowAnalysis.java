@@ -36,6 +36,7 @@ public interface DataflowAnalysis<Node, Fact> {
     /**
      * @return true if this analysis is forward, otherwise false.
      */
+
     boolean isForward();
 
     /**
